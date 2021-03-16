@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12pt;
+  text-align: left;
+  background: linear-gradient(-45deg, #BCD65B, #23A6D5, #FAB7B5, #23D5AB, #F4CDFF);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
